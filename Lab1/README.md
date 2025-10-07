@@ -3,7 +3,6 @@
 This project is a **one-page portfolio website** created as part of **Lab Assignment 1**.  
 It showcases personal details, projects, skills, and a contact form — all built using **semantic HTML5 tags** and following accessibility guidelines.
 
----
 
 ## 🧠 Project Overview
 
@@ -14,7 +13,6 @@ It showcases personal details, projects, skills, and a contact form — all buil
 
 This webpage serves as a personal portfolio demonstrating proper use of HTML semantics, structure, and accessibility.
 
----
 
 ## 🎯 Objectives
 - Use **semantic HTML tags** such as `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>`.
@@ -26,24 +24,22 @@ This webpage serves as a personal portfolio demonstrating proper use of HTML sem
 - Add a **Contact form** with labels, placeholders, and required fields.
 - Write clean, well-indented, and easily readable HTML code.
 
----
 
 ## 🧩 Folder Structure
+```
 WEB_DEVLOPMENT/Lab1/
 │
 ├── index.html
 ├── README.md
 └── Images/
 └── profile.jpg
-
----
+```
 
 ## 🧰 Tools Used
 - **HTML5**
 - **Text Editor:** Visual Studio Code
 - **Browser:** Google Chrome
 
----
 
 ## ✨ Features
 ✅ Semantic HTML structure  
