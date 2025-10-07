@@ -35,3 +35,22 @@ WEB_DEVLOPMENT/Lab1/
 ├── README.md
 └── Images/
 └── profile.jpg
+
+---
+
+## 🧰 Tools Used
+- **HTML5**
+- **Text Editor:** Visual Studio Code
+- **Browser:** Google Chrome
+
+---
+
+## ✨ Features
+✅ Semantic HTML structure  
+✅ Internal navigation links  
+✅ Accessible "Skip to main content" feature  
+✅ Profile image with alt text  
+✅ Projects listed with hyperlinks  
+✅ Skills displayed using a table  
+✅ Contact form with labels, placeholders, and validation  
+✅ Clean indentation and inline styling
