@@ -93,6 +93,11 @@ section h2 {
 }
 
 /* -------- About Section -------- */
+
+#about{
+  text-align: center;
+}
+
 #about img {
   display: block;
   margin: 20px auto;
@@ -101,22 +106,13 @@ section h2 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* -------- Projects Section -------- */
-#projects ul {
-  list-style: square;
-  margin-left: 20px;
-}
-
-#projects a {
-  color: #0a3d62;
-  text-decoration: none;
-}
-
-#projects a:hover {
-  text-decoration: underline;
-}
 
 /* -------- Skills Table -------- */
+
+#skills{
+  text-align: center;
+}
+
 #skills table {
   width: 80%;
   margin: 20px auto;
@@ -141,7 +137,28 @@ section h2 {
   background-color: #f1f1f1;
 }
 
+/* -------- Projects Section -------- */
+
+#project{
+  text-align: center;
+  color: white;
+}
+
+.projectdiv{
+  border: 10px black;
+  /* background-color: #f3efef; */
+  background-color: #0a3d62;
+  border-radius: 5%;
+  padding: 20px;
+  height: 100px
+}
+
 /* -------- Contact Form -------- */
+
+#contact h2{
+  text-align: center;
+}
+
 form {
   max-width: 500px;
   margin: 0 auto;
@@ -150,6 +167,10 @@ form {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   
+}
+
+#btnform{
+  text-align: center;
 }
 
 input, textarea {
@@ -184,22 +205,30 @@ footer {
 }
 
 /* -------- Back to Top Button -------- */
-#top-btn {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background-color: #3c6382;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 50px;
-  font-size: 18px;
-  cursor: pointer;
-  display: none;
+html {
+    scroll-behavior: smooth;
 }
 
-#top-btn:hover {
-  background-color: #0a3d62;
+#btntop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #3c6382;
+    color: rgb(17, 16, 16);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    z-index: 999;
+    text-decoration: none;  /* Remove underline */
+    text-align: center;
+}
+
+#btntop:hover {
+    background-color: #0a3d62;
+    opacity: 1;
 }
 
 /* -------- Utility -------- */
