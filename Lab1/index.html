@@ -1,0 +1,112 @@
+<!-- 
+Project: Portfolio Website
+Made By: Yokshit Rajora
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yokshit Rajora | Portfolio</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Yokshit Rajora</h1>
+    <p>B.Tech CSE (Cyber Security) Student at KR Mangalam University</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#main" class="skip-link">Skip to main content</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I'm a passionate Computer Science student specializing in Cyber Security, with interests in web development and Python programming.</p>
+  </section>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="Images/profile.jpg" alt="Profile picture of Yokshit Rajora" width="200" style="border-radius: 50px; border: 2px solid darkgreen;"/>
+      <p>Hello! I'm Yokshit, a B.Tech CSE student at KR Mangalam University. I enjoy learning about cyber security, building websites, and exploring new technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><b>Portfolio Website:</b> A personal basic website built using HTML and CSS.</li>
+        <li><b>Python Password Strength Checker:</b> A simple password strength checker app built using Python.</li>
+        <li><b>Various Python Games:</b> A collection of simple games built using Python like- Dice_Roll, Basic Science Quiz, Number_guessing, and many more.</li>
+        <li><b>Python Programs:</b> Some basic programs built using Python for hands on practice and learning.</li>
+        <li><b>My GitHub Repo for Fun:</b> All my lifetime work and project are here &rarr;<a href="https://github.com/Yaxu17/Personal_Repo/tree/main/Python" style="color: rgb(34, 120, 120);" title="This link will take you to my Repo">My Personal_Repo</a> .</li>
+
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table border="1" cellpadding="10" cellspacing="2" style="border-radius: 10px;">
+        <thead style="text-align: center;">
+          <tr>
+            <th>Skill</th>
+            <th>Proficiency Level</th>
+          </tr>
+        </thead>
+        <tbody style="text-align: center;">
+          <tr>
+            <td>HTML</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Cyber Security Tools</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" placeholder="Enter your name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" placeholder="Type your message here" required></textarea><br /><br />
+
+        <button type="submit" style="background-color:grey; color: white; border-radius:5px;">Submit Your Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Thank you for visiting my portfolio!</p>
+  </footer>
+
+</body>
+</html>
